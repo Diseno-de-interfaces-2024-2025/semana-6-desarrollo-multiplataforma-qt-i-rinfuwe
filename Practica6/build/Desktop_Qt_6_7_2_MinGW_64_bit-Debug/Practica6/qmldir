@@ -2,4 +2,6 @@ module Practica6
 typeinfo appPractica6.qmltypes
 prefer :/qt/qml/Practica6/
 Main 1.0 Main.qml
+MyRectangle 1.0 MyRectangle.qml
+MyRectangleMain 1.0 MyRectangleMain.qml
 

@@ -11,9 +11,13 @@ Window {
     title: qsTr("")
     StackLayout {
         id: stackLayout
+        x: 126
+        y: 0
+        width: 512
+        height: 480
         Layout.fillWidth: true
         Layout.fillHeight: true
-        currentIndex: 0
+        currentIndex: 1
 
         Rectangle {
             id: rectangle
@@ -22,26 +26,28 @@ Window {
 
             Text {
                 id: elemn
-                y: 23
+                y: 8
                 text: "Elementos"
                 anchors.bottom: gridLayout.top
                 anchors.bottomMargin: 6
                 font.pointSize: 24
                 horizontalAlignment: Text.AlignHCenter
-                anchors.horizontalCenterOffset: 382
+                anchors.horizontalCenterOffset: 13
                 anchors.horizontalCenter: parent.horizontalCenter
             }
 
         GridLayout {
             id: gridLayout
+            x: 26
+            width: 487
             anchors.left: columnLayout2.right
             anchors.right: parent.right
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.leftMargin: 6
-            anchors.rightMargin: -627
-            anchors.topMargin: 72
-            anchors.bottomMargin: -473
+            anchors.rightMargin: -1
+            anchors.topMargin: 62
+            anchors.bottomMargin: 0
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             columns: 3
             rowSpacing: 20
@@ -112,19 +118,9 @@ Window {
                 Layout.maximumHeight: 250
                 Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             }
-            Rectangle {
+            MyRectangle {
                 id: rectangle11
-                color: "#676262"
-                radius: 5
-                border.color: "#00000000"
-                Text {
-                    id: elementos6
-                    x: 41
-                    y: -15
-                    width: 74
-                    height: 37
-                    text: qsTr("Elemento")
-                }
+
                 Layout.preferredWidth: 150
                 Layout.preferredHeight: 100
                 Layout.minimumWidth: 100
@@ -145,11 +141,12 @@ Window {
                   }
               }
         }
+    }
         Rectangle {
             color: "#f0f0f0"
             Text {
                 text: "Edición"
-                anchors.verticalCenterOffset: 0
+                anchors.verticalCenterOffset: -22
                 anchors.horizontalCenterOffset: 1
                 font.pointSize: 24
                 anchors.centerIn: parent
@@ -171,9 +168,11 @@ Window {
                 anchors.centerIn: parent
             }
         }
+    }
     ColumnLayout {
         id: columnLayout2
-        x: 0
+        x: -1
+        y: 0
         width: 131
         height: 480
 
@@ -225,6 +224,4 @@ Window {
                 onClicked: stackLayout.currentIndex = 3
             }
     }
-}
-}
 }

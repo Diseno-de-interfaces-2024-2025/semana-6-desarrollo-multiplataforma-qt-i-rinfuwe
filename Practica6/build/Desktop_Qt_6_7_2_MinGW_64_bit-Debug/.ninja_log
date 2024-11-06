@@ -128,3 +128,14 @@
 384	441	7526188393443350	CMakeFiles/appPractica6.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appPractica6_raw_qml_0.cpp.obj	8842bb4a9b1df34f
 380	3025	7526188393412440	CMakeFiles/appPractica6.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appPractica6_Main_qml.cpp.obj	6914777eaae67b0e
 3025	3364	7526188419847387	appPractica6.exe	e9c4cd1ff44352d6
+22	74	7526193317389250	Practica6/Main.qml	6b1a53adaca67dff
+22	74	7526193317389250	C:/Users/enrlingal/Desktop/semana-6-desarrollo-multiplataforma-qt-i-rinfuwe/Practica6/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Practica6/Main.qml	6b1a53adaca67dff
+29	220	7526193318809303	.qt/qml_imports/appPractica6_build.cmake	fb4a7dfbceb674f9
+29	220	7526193318809303	C:/Users/enrlingal/Desktop/semana-6-desarrollo-multiplataforma-qt-i-rinfuwe/Practica6/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/qml_imports/appPractica6_build.cmake	fb4a7dfbceb674f9
+226	269	7526193319328886	.qt/rcc/qrc_appPractica6_raw_qml_0.cpp	be8e6f88d887f38a
+226	269	7526193319328886	C:/Users/enrlingal/Desktop/semana-6-desarrollo-multiplataforma-qt-i-rinfuwe/Practica6/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appPractica6_raw_qml_0.cpp	be8e6f88d887f38a
+220	379	7526193320284301	.rcc/qmlcache/appPractica6_Main_qml.cpp	187492d2258a6bae
+220	379	7526193320284301	C:/Users/enrlingal/Desktop/semana-6-desarrollo-multiplataforma-qt-i-rinfuwe/Practica6/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appPractica6_Main_qml.cpp	187492d2258a6bae
+384	471	7526193320543983	CMakeFiles/appPractica6.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appPractica6_raw_qml_0.cpp.obj	8842bb4a9b1df34f
+380	3061	7526193320504013	CMakeFiles/appPractica6.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appPractica6_Main_qml.cpp.obj	6914777eaae67b0e
+3061	3399	7526193347320289	appPractica6.exe	e9c4cd1ff44352d6

@@ -11,13 +11,17 @@ Window {
     title: qsTr("")
     StackLayout {
         id: stackLayout
-        x: 126
-        y: 0
-        width: 512
-        height: 480
+        anchors.left: columnLayout2.right
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        anchors.leftMargin: -4
+        anchors.rightMargin: 2
+        anchors.topMargin: 0
+        anchors.bottomMargin: 0
         Layout.fillWidth: true
         Layout.fillHeight: true
-        currentIndex: 1
+        currentIndex: 0
 
         Rectangle {
             id: rectangle
@@ -26,28 +30,19 @@ Window {
 
             Text {
                 id: elemn
-                y: 8
+                x: 189
+                y: 14
                 text: "Elementos"
-                anchors.bottom: gridLayout.top
-                anchors.bottomMargin: 6
                 font.pointSize: 24
                 horizontalAlignment: Text.AlignHCenter
-                anchors.horizontalCenterOffset: 13
-                anchors.horizontalCenter: parent.horizontalCenter
             }
 
         GridLayout {
             id: gridLayout
-            x: 26
-            width: 487
-            anchors.left: columnLayout2.right
-            anchors.right: parent.right
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
-            anchors.leftMargin: 6
-            anchors.rightMargin: -1
-            anchors.topMargin: 62
-            anchors.bottomMargin: 0
+            x: 18
+            y: 70
+            width: 489
+            height: 402
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             columns: 3
             rowSpacing: 20
@@ -171,10 +166,13 @@ Window {
     }
     ColumnLayout {
         id: columnLayout2
-        x: -1
-        y: 0
         width: 131
-        height: 480
+        anchors.left: parent.left
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        anchors.leftMargin: -1
+        anchors.topMargin: 0
+        anchors.bottomMargin: 0
 
             Button {
                 id: button1
